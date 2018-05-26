@@ -91,6 +91,9 @@ class quickBenchmark
 
 }
 
-new quickBenchmark();
+echo('Starting quick benchmark test...<br />');
+$dummy = new quickBenchmark();
+$dummy->benchmark();
+echo('<br />Test completed!');
 
 ?>
