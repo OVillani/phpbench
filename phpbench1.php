@@ -5,7 +5,7 @@
   Downloaded from: http://onlinephpfunctions.com
  */
 
-class benchmark
+class quickBenchmark
 {
 
     function benchmark()
@@ -77,11 +77,11 @@ class benchmark
         $startTime = $this->microtime_float();
         for ($i = 0; $i < $runCount; $i++) {
             if ($i == -1) {
-                
+
             } elseif ($i == -2) {
-                
+
             } else if ($i == -3) {
-                
+
             }
         }
         $time = $this->microtime_float() - $startTime;
@@ -91,6 +91,6 @@ class benchmark
 
 }
 
-new benchmark();
+new quickBenchmark();
 
 ?>
